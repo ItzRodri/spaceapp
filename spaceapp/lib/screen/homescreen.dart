@@ -15,67 +15,67 @@ class Homescreen extends StatefulWidget {
 class _HomescreenState extends State<Homescreen>
     with SingleTickerProviderStateMixin {
   final List<String> planetImages = [
+    'assets/mercury.png',
+    'assets/venus.png',
     'assets/earth.png',
     'assets/mars.png',
     'assets/jupiter.png',
     'assets/saturn.png',
-    'assets/mercury.png',
-    'assets/neptune.png',
-    'assets/venus.png',
     'assets/uranus.png',
+    'assets/neptune.png',
   ];
   final List<String> planetKM = [
+    '8 mil millones km²',
+    '460 millones km²',
     '510 millones km²', // Tierra
     '144 millones km²', // Marte
     '61 mil millones km²', // Júpiter
     '42 mil millones km²', // Saturno
-    '8 mil millones km²', // Mercurio
-    '7.6 mil millones km²', // Neptuno
-    '460 millones km²', // Venus
-    '74 millones km²', // Urano
+    '74 millones km²',
+    '7.6 mil millones km²',
   ];
 
   final List<String> planetV = [
+    '172.404 km/h',
+    '126.108 km/h',
     '107.280 km/h',
     '86.868 km/h ',
     '47.016 km/h',
     '34.705 km/h',
-    '172.404 km/h',
+    '24.516 km/h',
     '19.548 km/h',
-    '126.108 km/h',
-    '24.516 km/h'
   ];
   final List<String> planetSatelites = [
+    '0',
+    '0',
     '1',
     '2',
     '95',
     '146',
-    '0',
+    '28',
     '16',
-    '0',
-    '28'
   ];
 
   final List<String> planetPaseo = [
+    'assets/paseo/mercurio1.jpeg',
+    'assets/paseo/venus.jpeg',
     'assets/paseo/tierra.jpeg',
     'assets/paseo/martenoche.jpeg',
     'assets/paseo/jupiter.jpeg',
     'assets/paseo/saturno.jpeg',
-    'assets/paseo/mercurio1.jpeg',
-    'assets/neptune.png',
-    'assets/paseo/venus.jpeg',
     'assets/paseo/urano.jpeg',
+    'assets/paseo/neptuno.jpg',
   ];
 
   final List<String> planetNames = [
+    'Mercurio',
+    'Venus',
     'Tierra',
     'Marte',
     'Jupiter',
     'Saturno',
-    'Mercurio',
-    'Neptuno',
-    'Venus',
     'Urano',
+    'Neptuno',
   ];
 
   PageController _pageController = PageController(viewportFraction: 0.6);
